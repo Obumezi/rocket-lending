@@ -10,3 +10,8 @@
 .bg-dark {
   background-color: #6765e8 !important;
 }
+
+
+.card-text, .card-title{
+  font-weight: bold;
+}
