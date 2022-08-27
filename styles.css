@@ -32,3 +32,17 @@
 .hvr-grow:active {
   transform: scale(1.1);
 }
+
+
+.table-row{
+  border: 1px solid #DFE0EB
+}
+
+
+.btn{
+   display:block;
+ 
+  border-radius: 9%;
+  color: white;
+  
+}
