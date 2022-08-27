@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rocket Lending Loan Payment</title>
+    <link rel="stylesheet" href="paymentStyle.css">
+</head>
+
+<body>
+
+    <section class="main-content">
+        <h1>Rocket Lending Loan Payment</h1>
+        <hr>
+        <form action="" method="POST" id="payForm">
+
+            <label>Group Name</label>
+            <input type="text" id="fullName" placeholder="Enter group name here..." required>
+
+            <label>Phone Number.</label>
+            <input type="text" id="phoneNumber" placeholder="Enter group lead phone number here..." required>
+
+            <label>Email.</label>
+            <input type="text" id="email" placeholder="Enter email address..." required>
+
+            <label>Amount</label>
+            <input type="number" id="amount" placeholder="Enter repayment amount..." required>
+
+            <input type="submit" value="Continue">
+        </form>
+    </section>
+
+    <script src="https://checkout.flutterwave.com/v3.js"></script>
+    <script src="payment.js"></script>
+
+</body>
+
+</html>

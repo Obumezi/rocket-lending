@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/headers/" />
+
+    <link href="/docs/5.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <link rel="stylesheet" href="styles.css" />
+
+    <title>User Dashboard</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" style="
+        background: linear-gradient(
+            90deg,
+            rgba(255, 255, 255, 0) 41.49%,
+            #eaeae9 59.17%
+          ),
+          #ffffff;
+        background-blend-mode: darken, normal;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      ">
+        <!-- Container wrapper -->
+        <div class="container-fluid">
+            <!-- Toggle button -->
+            <button class="navbar-toggler" type="button" data-mdb-toggle="collapse"
+                data-mdb-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+
+            <!-- Collapsible wrapper -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <!-- Navbar brand -->
+                <a class="navbar-brand mt-2 mt-lg-0" href="#">
+                    <img src="" height="15" alt="ROCKET LENDING" loading="lazy" />
+                </a>
+                <!-- Left links -->
+
+                <!-- Left links -->
+            </div>
+            <!-- Collapsible wrapper -->
+
+            <!-- Right elements -->
+            <div class="d-flex align-items-center">
+                <div class="avatars" style="display: flex; gap: 15px">
+                    <i class="fa-solid fa-bell" style="color: #6765e8"></i>
+                    <i class="fa-solid fa-comment-dots" style="color: #6765e8"></i>
+                    <i class="far fa-user" style="color: #6765e8"></i>
+                </div>
+                <!-- <button type="button" class="btn btn-warning">Warning</button> -->
+                <a class="text-reset me-3" href="#"> </a>
+
+                <!-- Notifications -->
+
+                <!-- Avatar -->
+                <div class="dropdown">
+                    <a class="dropdown-toggle d-flex align-items-center hidden-arrow" href="#"
+                        id="navbarDropdownMenuAvatar" role="button" data-mdb-toggle="dropdown" aria-expanded="false">
+                        <!-- <img src="https://mdbcdn.b-cdn.net/img/new/avatars/2.webp" class="rounded-circle" height="25"
+                            alt="Black and White Portrait of a Man" loading="lazy" /> -->
+                        <span>Admin</span>
+                    </a>
+
+                    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownMenuAvatar">
+                        <li>
+                            <a class="dropdown-item" href="#">My profile</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="#">Settings</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="#">Logout</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Right elements -->
+        </div>
+        <!-- Container wrapper -->
+    </nav>
+
+    <br />
+    <br />
+
+    <div class="container">
+        <div class="row justify-content-md-center">
+            <div class="col-2" style="background-color: #6765E8"">
+          <i class=" fa-solid fa-money-bill-transfer fa-8x" style="color: white"></i>
+            </div>
+            <div class="col">
+                <p>Deficit</p>
+                <p>&#8358;
+                <h1>120,000</h1>
+                </p>
+            </div>
+            <div class="col-2">
+                <br />
+                <br />
+                <a href="../paymentGateway.html" target="_blank"><button type="button" class="btn btn-primary"
+                        style="background-color: black">Make Repayment</button></a>
+            </div>
+        </div>
+    </div>
+    <br />
+    <div class="container">
+        <div class="row">
+            <div class="btn-group" role="group" aria-label="Basic example">
+                <button type="button" class="btn btn-light" style="color: #6765E8;">Borrow Cash</button>
+                <button type="button" class="btn btn-light" style="color: #6765E8;">Transact</button>
+                <button type="button" class="btn btn-light" style="color: #6765E8;">Deposit Cash</button>
+            </div>
+        </div>
+    </div>
+    <br />
+    <div>
+        <div class="container">
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                    <span class="input-group-text" id="basic-addon1"><i
+                            class="fa-solid fa-magnifying-glass fa-2x"></i></span>
+                </div>
+                <input type="text" class="form-control" placeholder="Search for Loans" aria-label="Search for Loans"
+                    aria-describedby="basic-addon1">
+            </div>
+        </div>
+    </div>
+    <div class=" container-fluid ">
+        <div class="container" style="background-color: White">
+            <h4>Applied Loans</h4>
+            <table class="table">
+                <thead>
+                    <tr class="table-row">
+                        <th scope="col">Loan Officer</th>
+                        <th scope="col">Amount</th>
+                        <th scope="col">Date Applied</th>
+                        <th scope="col">Status</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <th scope="row"><img src="../images/5.png" alt=""></th>
+                        <th>N50,000</th>
+                        <th>June 09, 2022<p>8:00 AM</p>
+                        </th>
+                        <td><button type="button" class="btn btn-warning">Pending</button></td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row"><img src="../images/5.png" alt=""></th>
+                        <th>N100,000</th>
+                        <th>August 15, 2022<p>2:00 PM</p>
+                        </th>
+                        <td><button type="button" class="btn btn-success">Approved</button></td>
+                    </tr>
+                    <tr>
+                        <th scope="row"><img src="../images/5.png" alt=""></th>
+
+                        <th>200,000</th>
+                        <th>August 20, 2022<p>11:30 AM</p>
+                        </th>
+                        <td><button type="button" class="btn btn-warning">Pending</button></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+
+</html>
