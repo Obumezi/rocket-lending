@@ -1,3 +1,9 @@
 body {
  background-color: #E5E5E5;   
 }
+
+.col-2 {
+    flex: 0 0 auto;
+    width: 190px;
+    height: 140px;
+}

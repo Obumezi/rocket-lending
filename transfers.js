@@ -42,10 +42,7 @@ function transferNow(e) {
         })
         .catch(error => console.log('not working', error))
 
-    if (accountNumber === "0236755798" && amount === "50000") {
-        console.log("gooo to go")
-
-    } else (console.log("check again"))
+   
 
 
 }

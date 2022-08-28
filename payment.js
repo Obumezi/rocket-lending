@@ -1,4 +1,4 @@
-const form = document.getElementById('payForm');
+const form = document.getElementById('payFormNow');
 form.addEventListener("submit", payNow);
 
 function payNow(e) {
