@@ -26,45 +26,45 @@
     <form id="myModal" class="modal fade" action="" method="POST">
         <div class="modal-dialog modal-login">
             <div class="modal-content">
-               
-                    <div class="modal-header">
-                        <h4 class="modal-title">Make Transfer</h4>
-                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+
+                <div class="modal-header">
+                    <h4 class="modal-title">Make Transfer</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <div class="form-group">
+                        <label>Bank Name</label>
+                        <input type="text" id="bankName" class="form-control" required="required">
                     </div>
-                    <div class="modal-body">
-                        <div class="form-group">
-                            <label>Business Name</label>
-                            <input type="text" class="form-control" required="required">
-                        </div>
-                        <div class="form-group">
-                            <div class="clearfix">
-                                <label>Account Number</label>
+                    <div class="form-group">
+                        <div class="clearfix">
+                            <label>Account Number</label>
 
-                            </div>
-
-                            <input type="number" class="form-control" required="required">
                         </div>
 
-                        <div class="form-group">
-                            <div class="clearfix">
-                                <label>Amount</label>
+                        <input type="number" id="accountNumber" class="form-control" required="required">
+                    </div>
 
-                            </div>
+                    <div class="form-group">
+                        <div class="clearfix">
+                            <label>Amount</label>
 
-                            <input type="number" class="form-control" required="required">
                         </div>
-                    </div>
-                    <div class="modal-footer justify-content-between">
 
-                        <input type="submit" class="btn btn-primary" value="Send">
+                        <input type="number" id="amount" class="form-control" required="required">
                     </div>
-                
+                </div>
+                <div class="modal-footer justify-content-between">
+
+                    <input type="submit"  id="payNow" class="btn btn-primary" value="Send">
+                </div>
+
             </div>
         </div>
     </form>
 </body>
 
-<!-- <script src="https://fsi.ng/api/v1/flutterwave/v3/transfers"> </script> -->
+
 
 <script src="transfers.js"></script>
 
