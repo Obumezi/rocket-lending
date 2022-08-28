@@ -46,3 +46,14 @@
   color: white;
   
 }
+
+
+.h-25 {
+  height: 150px !important;
+  width: 300px !important;
+}
+
+.ms-1 {
+  margin-left: 0.25rem!important;
+  font-size: 25px;
+}
