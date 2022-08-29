@@ -6,6 +6,12 @@ const amount = document.getElementById("amount").value
 
 const form = document.getElementById("myModal")
 
+const sendFunds = document.getElementById("sendFunds")
+
+const sendFundsMain = document.getElementById("sendFundsMain")
+
+const myModal = document.getElementById("myModal")
+
 
 
 
@@ -42,13 +48,22 @@ function transferNow(e) {
         })
         .catch(error => console.log('not working', error))
 
-   
+
 
 
 }
 
 form.addEventListener("submit", transferNow)
 
+/* sendFunds.onclick = () => {
+    resultCard.style.display = "none";
+} */
+
+
+sendFunds.addEventListener("click", function(e){
+    e.preventDefault()
+    myModal.style.display = "none";
+})
 
 
 
